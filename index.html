@@ -1,10 +1,205 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>My Resume</title>
+<head>
+
+    <!-- Latest compiled and minified CSS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sandeep Kamble's Profile</title>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- More Icons like gyphicons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
-<body>
-<h1>Sandeep Kamble</h1>
+<body data-spy="scroll" data-target=".navbar-example">
+
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top navbar-example">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Sandeep Kamble</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#aboutme">About Me</a></li>
+                <li><a href="#tech">Technologies</a></li>
+                <li><a href="#exp">Experience</a></li>
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a target="_blank" href="http://in.linkedin.com/pub/sandeep-kamble/5b/471/343">Linkedin</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div class="container">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <img src="images/profile_image.JPG" class="img-responsive center-block thumbnail">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-12"><h4 class="text-center ">Sandeep Kamble</h4></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                Senior Software Developer
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container section" id="aboutme">
+    <div class="row">
+        <div class="col-md-12">
+            <h1><i class="glyphicon glyphicon-user"></i> About Me</h1>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-xs-12">
+                Dynamic, motivated individual with strong commitment in reaching goals. Good experience
+
+                (6+years) in the field of web product development. Energetic self-starter who is
+
+                enthusiastic about learning new technologies, enhancing current technical expertise, and
+
+                applying transferable skill sets.
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+<div class="container section" id="tech">
+    <div class="row">
+        <div class="col-md-12">
+            <h1><i class="fa fa-rocket"></i> Technologies</h1>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <h4>Web</h4>
+
+                <div class="panel-body">
+                    <code>Angular</code>
+                    <code>Backbone</code>
+                    <code>Sencha/ExtJs</code>
+                    <code>jQuery</code>
+                    <code>UnderscoreJs</code>
+                    <code>RequireJs</code>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h4>Backend</h4>
+
+                <div class="panel-body">
+                    <code>J2EE</code>
+                    <code>Spring</code>
+                    <code>Hibernate</code>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h4>Database</h4>
+
+                <div class="panel-body">
+                    <code>MySQL</code>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+
+
+<div class="container section" id="exp">
+    <div class="row">
+        <div class="col-md-12">
+            <h1><i class="glyphicon glyphicon-calendar"></i> Experience</h1>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Synerzip Softtech India Pvt. Ltd.</div>
+                    <div class="panel-body">
+                        27 Feb, 2012 – Present
+                        <br>
+                        <b>Designation: </b>Sr. Software Devloper
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Enlighted Inc.</div>
+                    <div class="panel-body">
+                        3 Nov, 2011 – 24 Feb, 2012 (4 months)
+                        <br>
+                        <b>Designation: </b> Software Devloper
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Krawler Information Systems Pvt. Ltd.</div>
+                    <div class="panel-body">
+                        1 Oct, 2008 – 31 Oct, 2011 (37 months)
+                        <br>
+                        <b>Designation: </b>Krawler Platform Engineer
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.js"></script>
+
+<script>
+    $(function () {
+        $('body').scrollspy({target: '.navbar-example'})
+        $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+</script>
+
 </body>
 </html>
+
+
+

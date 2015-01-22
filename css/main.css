@@ -1,0 +1,13 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+.panel-heading{
+    font-weight: bold;
+}
+
+#tech .panel-body{
+    background-color: #CCC;
+    border-radius: 8px;
+}
